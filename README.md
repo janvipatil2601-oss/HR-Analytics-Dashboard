@@ -12,3 +12,20 @@ Specific objectives include:
 
 ## Dataset
 -<a href="https://github.com/janvipatil2601-oss/HR-Analytics-Dashboard/blob/main/HR_Analytics.xlsx">Dataset</a>
+
+## Project Process
+### Step 1: Data Collection
+Collected employee HR dataset containing demographic and employment details.
+### Step 2: Data Cleaning
+-  Removed duplicate records.
+-  Handled missing values.
+-  verified data types.
+-  Corrected inconsistencies in categorical values. 
+### Step 3: DAX Measures Created
+-  Total Employees = COUNT(Employee[EmployeeNumber])
+-  Attrition Employees =CALCULATE([Total Employees],Employee[Attrition] = "Yes")
+-  Active Employees =[Total Employees] - [Attrition Employees]
+-  Attrition Rate % =DIVIDE([Attrition Employees],[Total Employees],0)*100
+-  Retention Rate % =100 - [Attrition Rate %]
+-  Average Salary =AVERAGE(Employee[MonthlyIncome])
+
