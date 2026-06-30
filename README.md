@@ -33,5 +33,5 @@ Collected employee HR dataset containing demographic and employment details.
 -<a href="https://github.com/janvipatil2601-oss/Data-Analysis-Dashboard/blob/main/sale%20dashboard.pbix">View Dashboard</a>
 
 ##  Dashboard
-![Screeshort(495)](https://github.com/janvipatil2601-oss/Data-Analysis-Dashboard/blob/main/Screenshot%202026-06-13%20165936.png)
+![Screeshort(495)](https://github.com/janvipatil2601-oss/HR-Analytics-Dashboard/blob/main/Screenshot%202026-06-29%20161435.png)
 
